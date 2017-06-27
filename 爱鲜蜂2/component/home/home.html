@@ -1,0 +1,53 @@
+<div id="slid">
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" ng-repeat="item in swiperData">
+            <img src="{{item.activity.img}}" alt="">
+        </div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+</div>
+</div>
+<div id="module-list">
+    <ul>
+        <li ng-repeat="item in module"><img src="{{item.activity.img}}" alt=""><p>{{item.activity.name}}</p></li>
+    </ul>
+</div>
+<div id="img-text">
+    <p><img src="{{textImg.head_img}}" alt=""></p>
+    <ul>
+        <li ng-repeat="item in textObj"><img src="{{item.activity.img}}" alt=""></li>
+    </ul>
+</div>
+<div id="flash-to-send"><p ng-repeat="item in textObj2"><img src="{{item.chead_detail.img}}" alt=""></p></div>
+<div id="lable">
+    <p ng-repeat="item in textObj3"><img src="{{item.cactivity_detail.img}}" alt=""></p>
+</div>
+<div id="classify">
+    <ul>
+        <li ng-repeat="item in textObj4"><img src="{{item.cicons_detail.img}}" alt=""> <p>{{item.cicons_detail.name}}</p></li>
+    </ul>
+</div>
+<div id="detail">
+    <div ng-repeat="item in textObj5">
+        <img src="{{item.activity.img}}" alt="">
+    </div>
+</div>
+<div id="last-text">
+    <div ng-repeat="item in textObj6">
+        <p class="p1">{{item.activity.name}}<span>更多 ></span></p>
+        <img src="{{item.activity.img}}" alt="">
+        <ul>
+            <li ng-repeat="item2 in item.category_detail.goods">
+                <img src="{{item2.img}}" alt="">
+                <p>{{item2.name}}</p>
+                <p>精选</p>
+                <p>买一赠一</p>
+                <!--<p>{{item2.long_name}}</p>-->
+                <p>￥{{item2.price}}<span class="sp2">+</span></p>
+            </li>
+        </ul>
+    </div>
+
+</div>

@@ -1,0 +1,27 @@
+<div id="left-list">
+    <ul>
+        <li ng-repeat="item in leftObj" ng-click="ck(item.id,item.cids)">{{item.name}}</li>
+    </ul>
+</div>
+<div id="right-text">
+    <div id="up-list">
+        <p ng-click="toggle1()">全部分类</p>
+        <p  ng-click="toggle2()">综合排序</p>
+    </div>
+    <div id="category" ng-show="shows1">
+        <span ng-repeat="item3 in categoryObj" ng-click="ck2(item3.id)">{{item3.name}}</span>
+    </div>
+    <div id="rankText" ng-show="shows2">
+        <span>综合排序</span>
+        <span ng-click="sort='brand_id'">销量最高</span>
+        <span ng-click="sort='price*100'">价格最低</span>
+        <span ng-click="sort='-price*100'">价格最高</span>
+    </div>
+    <div id="down-list">
+        <div id="list-text">
+            <ul>
+                <li ng-repeat="item2 in rightObj2|orderBy:sort"><img src="{{item2.img}}" alt=""><div class="shopInfo"><p>{{item2.name}}</p><p>精选</p><p>{{item2.specifics}}</p><p>￥{{item2.price}}<span class="sps">+</span></p></div></li>
+            </ul>
+        </div>
+    </div>
+</div>

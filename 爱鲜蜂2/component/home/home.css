@@ -1,0 +1,38 @@
+#slid{width:100%;height:30%;}
+.swiper-slide>img{width:100%;height:100%;}
+#module-list{width:100%;height:20%;}
+#module-list ul{width:100%;height:100%;display:flex;justify-content: space-between;}
+#module-list ul li{width:25%;height:100%;text-align:center;}
+#module-list ul li img{width:100%;height:80%;}
+#module-list ul li p{width:100%;height:20%;}
+#img-text{width:100%;height:50%}
+#img-text>p{width:100%;}
+#img-text>p>img{width:100%;height:100%;}
+#img-text ul{width:100%;height:50%;}
+#img-text ul li{width:50%;height:100%;float:left;border:1px solid lightgray;}
+#img-text ul li img{width:100%;height:100%;}
+#flash-to-send{width:100%;}
+#flash-to-send img{width:100%;}
+#lable{width:100%;}
+#lable p{width:44%;float:left;margin:3%;}
+#lable p img{width:100%;}
+#classify{width:100%;height:40%;}
+#classify ul{width:100%;height:100%;display:flex;justify-content: space-between;}
+#classify ul li{width:25%;height:100%;text-align: center;}
+#classify ul li img{width:100%;}
+#detail{width:100%;}
+#detail>div{width:200%;height:10%;padding-left:4%;}
+#detail>div img{width:25%;float:left;}
+#last-text{width:100%;}
+#last-text>div{width:100%;}
+#last-text>div>.p1{width:100%;height:50px;font-size:20px;line-height: 50px;padding-left:5%;display: flex;justify-content: space-between;}
+#last-text>div>.p1>span{font-size:16px;}
+#last-text>div>img{width:100%;}
+#last-text>div>ul{width:100%;height:300px;}
+#last-text>div>ul li{width:33.3%;height:100%;float:left;border-right:1px solid lightgray;}
+#last-text>div>ul li img{width:100%;height:50%;}
+#last-text>div>ul li p{font-size: 16px;overflow: hidden; white-space: nowrap; text-overflow: ellipsis;margin-bottom:10%;}
+#last-text>div>ul li p:nth-child(3){width:30%;height:8%;border-radius: 20%;color:red;border: 1px solid red;display: flex;align-items: center;justify-content: center;}
+#last-text>div>ul li p:nth-child(4){width:60%;height:8%;background:red;border-radius: 20%;color:#fff;border: 1px solid red;display: flex;align-items: center;justify-content: center;}
+#last-text>div>ul li p:last-child{color:red;display: flex;justify-content: space-between;align-items: center;}
+#last-text>div>ul li p span:first-child{width:40%;height:50px;border:1px solid darkgray;border-radius:50%;display: block; text-align: center;line-height: 50px;font-size: 20px;font-weight: bolder;}
