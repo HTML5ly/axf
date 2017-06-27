@@ -1,0 +1,16 @@
+#contener{width:100%;height:90%;overflow:auto;}
+
+#slider{width:100%;height:30%;}
+.swiper-container,.swiper-wrapper,.swiper-slide{width:100%;height:100%;}
+.swiper-slide>img{width:100%;height:100%;}
+#two-text{width:100%;height:25%;background:#fff;margin:2% 0;display: flex;align-items: center;}
+#two-text>ul>li{float:left;width:25%;height:100%;text-align: center;}
+#two-text>ul>li>p>img{width:100%;height:100%;}
+/*#three-text{width:100%;height:40%;background:red;}*/
+#last-text{width:100%;}
+#last-text>ul{width:100%;}
+#last-text>ul>li{width:100%;margin:4% 0;}
+.p1{width:100%;font-size: 20px;}
+#last-text>ul>li>img{width:100%;}
+.list-divs{width:33%;float:left;border-right: 1px solid gainsboro;}
+.list-divs>img{width:100%;}
